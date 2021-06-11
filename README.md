@@ -1,1 +1,3 @@
 # naver_boostcourse
+
+*.txt
