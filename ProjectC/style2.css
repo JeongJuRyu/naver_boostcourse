@@ -1,0 +1,123 @@
+
+body {
+    font-family : 'NanumGothic', 'Dotum', 'sans-serif';
+    background-color: #f0f0f0;
+}
+header{
+    background-color: #fff;
+}
+.header-container{
+    width : 988px;
+    align-items : center;
+    display:flex;
+    justify-content: space-between;
+    height : 70px;
+    margin : 0 auto;
+}
+.section-wrapper{
+    width:988px;;
+    margin: 0 auto;
+}
+nav{
+    display:flex;
+    margin : 0 -5px;
+}
+.navigation{
+    margin : 0 10px;
+    font-size : 22px;
+}
+.navigation:hover{
+    font-weight: bold;
+}
+.title-content{
+    padding : 30px 0;
+    border-bottom: 1px solid #c1c1c1;
+}
+.title-name{
+    font-size:36px;
+    color:#333;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.table{
+    width:100%;
+    font-size:14px;
+    color:#666;
+    line-height: 20px;
+}
+.container{
+    margin:20px 0;
+}
+.mini-title{
+    font-size:16px;
+    color:#333;
+    font-weight: bold;
+    padding : 10px 0;
+}
+.mini-content{
+    width:100%;
+    white-space: pre-line;
+    line-height:30px;
+}
+.mini-content a{
+    color:#3b9a7b;
+    text-decoration: underline;
+}
+.cooking-table{
+    line-height:30px;
+    width : 100%;
+    border:1px;
+    margin : 20px 0;
+    font-size:14px;
+    color:#666;
+}
+.cooking-table td{
+    border : 1px solid black;
+    padding : 0 5px;
+}
+.cooking-table td:nth-child(1){
+    width: 10%;
+}
+.cooking-table td:nth-child(2){
+    width: 45%;
+}
+.cooking-table td:nth-child(3){
+    width: 45%;
+}
+
+figure{
+    max-width: 800px;
+    margin : 0 auto 20px;
+}
+figure figcaption{
+    text-align: center;
+    padding : 10px;
+}
+figure img{
+    width:100%;
+}
+
+footer{
+    background-color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size : 14px;
+    color:#333;
+    padding : 30px 0;
+    margin-top : 100px;
+}
+.footer-container{
+    width:20%;
+}
+.four-content{
+    display : flex;
+    justify-content: space-between;
+    width:100%;
+    text-align : center;
+    margin-bottom:20px;
+}
+.right{
+    text-align : center;
+}

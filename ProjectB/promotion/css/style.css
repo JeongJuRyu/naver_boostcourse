@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    font-family : 'NanumGothic', 'Dotum', 'sans-serif';
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+header{
+    width:100%;
+    position : fixed;
+    height : 66px;
+    background-color : rgba(64,64,64,0.75);
+    z-index : 1000;
+}
+.logo-container{
+    width: 1080px;
+    margin : 0 auto;
+    padding-left : 40px;
+    padding-top : 20px;
+}
+
+.main{
+    height : 750px;
+    background-image: url(/promotion/image/section_invite.jpg);
+    background-color : #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.invite{
+    width:100%;
+    height:100%;
+}
+
+.creator{
+    height:822px;
+    background-image: url(/promotion/image/section_creator.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f9939d;
+}
+
+.store{
+    height:1084px;
+    background-image: url(/promotion/image/section_store.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #d5e43f;
+}
+
+.total-menu{
+    height : 100%;
+    padding-top : 17rem;
+    width:980px;
+    display : block;
+    margin : 0 auto;
+}
+.menu{
+    display :flex;
+    justify-content: space-between;
+    width:100%;
+    list-style : none;
+}
+.item-container{
+    height : 140px;
+    padding-top : 40px;
+}
+.item-info{
+    text-align: center;
+    font-size : 20px;
+    color:#1b1d21;
+    text-align: center;
+}
+
+.recipe {
+    background-image: url(/promotion/image/pattern_recipe.png);
+    width:100%;
+    background-repeat: repeat-x;
+    background-position: center 50%;
+    background-color: #b893f9;
+    height : 1030px;
+}
+
+.recipe-background{
+    position : relative;
+    top:100px;
+    background-image: url(/promotion/image/section_recipe.png);
+    background-position: center 30%; 
+    background-repeat: no-repeat;
+    width:1080px;
+    margin : 0 auto;
+    height : 70%;
+}
+.link{
+    position : relative;
+    height: 482px;
+    width : 980px;
+    border-radius: 10px;
+    top:29%;
+    left :4%;
+    display:flex;
+    justify-content: space-between;
+}
+.link a{
+    display : block;
+    width:100%;
+    height:100%;
+}
+.link-1{
+    height: 100%;
+    width:480px;
+}
+.link-2{
+    height:100%;
+    width:480px;
+}
+.see-total-recipe{
+    position : relative;
+    margin : 0 auto;
+    top : 13%;
+    width: 310px;
+    height : 91px;
+}
+.go-recipe-over{
+    position : absolute;
+    top : 0;
+    left : 0;
+    z-index : -1;
+}
+.see-total-recipe:hover .go-recipe-over{
+    z-index : 2;
+}
+
+.FAQ {
+    font-size : 20px;
+    color : #1b1d21;
+    line-height : 28px;
+    font-weight: bold;
+}
+
+.FAQ-container h2{
+    padding : 2em 0 1em;
+    text-align: center;
+    font-size : 2.5em;
+}
+
+
+
+footer{
+    margin : 100px 0 0;
+    height : 80px;
+    background-color: #e0e4eb;
+    font-size : 18px;
+    color : #70757d;
+}
+
+footer p{
+    text-align: center;
+    line-height: 80px;
+}
+
+.FAQ-container{
+    width : 1080px;
+    display : block;
+    margin : 0 auto;
+    border-bottom : 1px solid #1b1d21;
+}
+
+.FAQ-title
+{
+    width : 100%;
+    height : 150px;
+    background-image : url(/promotion/image/title_faq.gif);
+    background-repeat: no-repeat;
+    background-position : center 70%;
+}
+
+.QNA{
+    border-top:1px solid #000;
+    padding : 1.5rem 0 0;
+    font-size : 20px;
+    line-height: 28px;
+}
+
+.Question{
+    left : 10px;
+    position : relative;
+    display : flex;
+    align-items: center;
+}
+.Question-content{
+    margin-left : 30px;
+    width : 980px;  
+
+}
+
+.Question-arrow{
+    padding : 8px 30px 30px;
+}
+.Answer-container{
+    color:#60656e;
+    background-color:#ecf3fd;
+    opacity: 0.75;
+}
+.Answer{
+    display : flex;
+    padding-left : 10px;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    font-size : 16px;
+}
+.Answer-content{
+    margin-left : 30px;
+}
+.only-Q{
+    border-top:1px solid #000;
+    padding :1.5rem 0;
+    font-size : 20px;
+    line-height: 28px;
+}
+
+.top{
+    position : fixed;
+    right : 0;
+    bottom : 180px;
+}
+
+.top-content{
+    padding : 20px;
+    background-color: #37393d;
+}
+
+.top-content p{
+    line-height: 20px;
+    text-align : center;
+    color : white;
+}

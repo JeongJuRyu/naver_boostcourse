@@ -1,0 +1,3 @@
+img의 display를 block으로 바꾸고, margin : 0 auto 주어서 가운데에 오도록 한다.
+
+ul의 class에 list-style:none을 주어서 기본적으로 생기는 마커 제거
