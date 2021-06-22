@@ -100,7 +100,7 @@ header{
 
 .main{
     height : 750px;
-    background-image: url(/promotion/image/section_invite.jpg);
+    background-image: url(../image/section_invite.jpg);
     background-color : #fff;
     background-repeat: no-repeat;
     background-position: center center;
@@ -113,7 +113,7 @@ header{
 
 .creator{
     height:822px;
-    background-image: url(/promotion/image/section_creator.jpg);
+    background-image: url(../image/section_creator.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #f9939d;
@@ -121,7 +121,7 @@ header{
 
 .store{
     height:1084px;
-    background-image: url(/promotion/image/section_store.jpg);
+    background-image: url(../image/section_store.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #d5e43f;
@@ -152,7 +152,7 @@ header{
 }
 
 .recipe {
-    background-image: url(/promotion/image/pattern_recipe.png);
+    background-image: url(../image/pattern_recipe.png);
     width:100%;
     background-repeat: repeat-x;
     background-position: center 50%;
@@ -163,7 +163,7 @@ header{
 .recipe-background{
     position : relative;
     top:100px;
-    background-image: url(/promotion/image/section_recipe.png);
+    background-image: url(../image/section_recipe.png);
     background-position: center 30%; 
     background-repeat: no-repeat;
     width:1080px;
@@ -249,7 +249,7 @@ footer p{
 {
     width : 100%;
     height : 150px;
-    background-image : url(/promotion/image/title_faq.gif);
+    background-image : url(../image/title_faq.gif);
     background-repeat: no-repeat;
     background-position : center 70%;
 }
